@@ -12,6 +12,7 @@
 		5E3FF675207688C900D4FBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FF673207688C900D4FBDC /* Main.storyboard */; };
 		5E3FF677207688CC00D4FBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FF676207688CC00D4FBDC /* Assets.xcassets */; };
 		5E3FF67A207688CC00D4FBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FF678207688CC00D4FBDC /* LaunchScreen.storyboard */; };
+		5E3FF6822076892B00D4FBDC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FF6812076892B00D4FBDC /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5E3FF676207688CC00D4FBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E3FF679207688CC00D4FBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E3FF67B207688CC00D4FBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3FF6812076892B00D4FBDC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5E3FF66F207688C900D4FBDC /* AppDelegate.swift */,
+				5E3FF6812076892B00D4FBDC /* MainViewController.swift */,
 				5E3FF671207688C900D4FBDC /* ViewController.swift */,
 				5E3FF673207688C900D4FBDC /* Main.storyboard */,
 				5E3FF676207688CC00D4FBDC /* Assets.xcassets */,
@@ -90,6 +93,9 @@
 		5E3FF664207688C900D4FBDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					select,
+				);
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = ppquitmax;
@@ -135,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3FF6822076892B00D4FBDC /* MainViewController.swift in Sources */,
 				5E3FF672207688C900D4FBDC /* ViewController.swift in Sources */,
 				5E3FF670207688C900D4FBDC /* AppDelegate.swift in Sources */,
 			);
